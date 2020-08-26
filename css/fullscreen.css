@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Ubuntu, Arial;
+    background-color: #222222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p, h3{ 
+    color: #fff;
+}
+
+h1 {
+    color:#ffaa22;
+    font-weight: bold;
+    margin: 0;
+}
+
+a {
+    color: #ffaa22;
+    text-decoration: none;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#nav {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+}
+
+#nav-left {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex: 1;
+}
+
+#nav-right {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex: 1;
+}
+
+#nav ul {
+    list-style:none;
+    margin: 0;
+}
+
+#main {
+    height: auto;
+    min-height: 800px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 2;
+}
+
+#footer {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 3;
+}
+
+#footer ul {
+    list-style:none;
+}
+
+ul li{
+    display: inline;
+}
+
+#footer ul li {
+    display: inline;
+}
